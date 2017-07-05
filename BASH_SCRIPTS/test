@@ -1,0 +1,26 @@
+#!/bin/bash
+
+if [ $1 -eq $2 ]
+then 
+	echo "they're equal"
+else 
+	echo "they are not equal"
+fi
+
+if [ $3 = $4 ]
+then 
+	echo "they're the same"
+else
+	echo "they are not the same"
+fi
+
+if [ -f $0 ]
+then 
+	echo "it's a regular file"
+elif [ -d $0 ]
+then
+	echo "this is a directory. something has gone wrong"
+else
+	echo "it's something else"
+fi
+

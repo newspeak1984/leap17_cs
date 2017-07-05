@@ -1,0 +1,5 @@
+#!/bin/bash
+
+k=2
+echo $k
+echo $1
