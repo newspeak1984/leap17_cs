@@ -1,3 +1,3 @@
 # leap17_cs
 
-Conditional statements in Bash are kind of IFFI
+http://www.linux-sxs.org/programming/bashcheat.html
